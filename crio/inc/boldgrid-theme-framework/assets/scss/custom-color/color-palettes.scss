@@ -1,0 +1,338 @@
+$colors: ( var(--color-1), var(--color-2), var(--color-3), var(--color-4), var(--color-5) );
+
+$palette-primary_1: var(--color-1);
+$palette-primary_2: var(--color-2);
+$palette-primary_3: var(--color-3);
+$palette-primary_4: var(--color-4);
+$palette-primary_5: var(--color-5);
+$palette-primary-neutral-color: var(--color-neutral);
+
+$ubtn-colors: ();
+
+$ubtn-colors: append($ubtn-colors,('color-1' var( --color-1 ) var(--color-1-text-contrast) var( --color-1-light ) var( --color-1-dark ) ));
+
+$ubtn-colors: append($ubtn-colors,('color-2' var( --color-2 ) var(--color-2-text-contrast) var( --color-2-light ) var( --color-2-dark )));
+
+$ubtn-colors: append($ubtn-colors,('color-3' var( --color-3 ) var(--color-3-text-contrast) var( --color-3-light ) var( --color-3-dark )));
+
+$ubtn-colors: append($ubtn-colors,('color-4' var( --color-4 ) var(--color-4-text-contrast) var( --color-4-light ) var( --color-4-dark )));
+
+$ubtn-colors: append($ubtn-colors,('color-5' var( --color-5 ) var(--color-5-text-contrast) var( --color-5-light ) var( --color-5-dark )));
+
+$ubtn-colors: append($ubtn-colors,('neutral-color' var( --color-neutral ) var(--color-neutral-text-contrast) var( --color-neutral-light ) var( --color-neutral-dark )));
+
+
+/* Create single css classes to apply palettes on universal elements. */
+$names: background background-color;
+.sidebar.transparent-background-color {
+	@for $color from 1 through length( $colors ) {
+		@for $each from 1 through length( $colors ) {
+			$reference: var(--color-#{$color});
+			&.color-#{$each}-link-color {
+				a:not( .btn ) {
+					color: var(--color-#{$each});
+				}
+			}
+		}
+		@if variable-exists( palette-primary-neutral-color ) {
+			&.color-neutral-link-color {
+				a:not( .btn ) {
+					color: var(--color-neutral);
+				}
+			}
+			&.color-neutral-sub-link-color.sm {
+				ul.sub-menu:not( .custom-sub-menu ) {
+					li.menu-item {
+						> a:not(.btn) {
+							color: var(--color-neutral);
+						}
+						> a:not(.btn) {
+							&:hover, &:focus, &:active, &.highlighted {
+								color: var(--bg-#{$color}-text-neutral-hover);
+							}
+						}
+					}
+				}
+			}
+		}
+		&-hover {
+			&:focus, &:hover {
+				background-color: var(--color-#{$color}) ! important;
+			}
+		}
+	}
+}
+@for $i from 1 through length( $names ) {
+	@for $color from 1 through length( $colors ) {
+		$reference: var(--color-#{$color});
+		.color#{$color}-#{nth( $names, $i )} {
+			@for $each from 1 through length( $colors ) {
+				&.color-#{$each}-link-color {
+					li.menu-item:not( .custom-sub-menu ),
+					.attribution-theme-mods .link {
+						> a:not( .btn ) {
+							color: var(--color-#{$each});
+						}
+						> a:not( .btn ) {
+							&:hover, &:focus, &:active, &.highlighted {
+								color: var(--bg-#{$color}-text-#{$each}-hover);
+							}
+						}
+					}
+					
+				}
+				&.panel-heading,
+				&.panel-body,
+				&.panel-footer {
+					&.color-#{$each}-link-color {
+						a:not( .btn ) {
+							color: var(--color-#{$each});
+						}
+						> a:not( .btn ) {
+							&:hover, &:focus, &:active, &.highlighted {
+								color: var(--bg-#{$color}-text-#{$each}-hover);
+							}
+						}
+					}
+				}
+				&.sidebar {
+					&.color-#{$each}-link-color {
+						a:not( .btn ) {
+							color: var(--color-#{$each});
+						}
+					}
+				}
+				&.sm {
+					&.color-#{$each}-link-color {
+						li.menu-item.btn {
+							> a {
+								color: inherit;
+							}
+							> a {
+								&:hover, &:focus, &:active, &.highlighted {
+									color: inherit;
+								}
+							}
+						}
+						li.menu-item:not( .custom-sub-menu ) {
+							> a:not(.btn) {
+								color: var(--color-#{$each});
+							}
+							> a:not(.btn) {
+								&:hover, &:focus, &:active, &.highlighted {
+									color: var(--bg-#{$color}-text-#{$each}-hover);
+								}
+							}
+						}
+						@for $subeach from 1 through length( $colors ) {
+							&.color-#{$subeach}-sub-link-color {
+								li.menu-item:not( .custom-sub-menu ) {
+									ul.sub-menu:not( .custom-sub-menu ) > a:not(.btn) {
+										color: var(--color-#{$subeach});
+										&:hover, &:focus, &:active, &.highlighted {
+											color: var(--bg-#{$color}-text-#{$subeach}-hover);							
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			@if variable-exists( palette-primary-neutral-color ) {
+				&.color-neutral-link-color {
+					a {
+						&:not( .in-mega ):not( .btn ) {
+							color: var(--color-neutral);
+							&:hover, &:focus, &:active, &.highlighted {
+								color: var(--bg-#{$color}-text-neutral-hover);
+							}
+						}
+					}
+				}
+				&.color-neutral-sub-link-color.sm {
+					ul.sub-menu:not( .custom-sub-menu ) {
+						li.menu-item:not( .custom-sub-menu ) {
+							> a:not(.btn) {
+								color: var(--color-neutral);
+								&:hover, &:focus, &:active, &.highlighted {
+									color: var(--bg-#{$color}-text-neutral-hover);
+								}
+							}
+						}
+					}
+				}
+				@for $subEach from 1 through length( $colors ) {
+					&.color-#{$subEach}-sub-link-color {
+						ul.sub-menu:not( .custom-sub-menu ) {
+							li.menu-item:not( .custom-sub-menu ) {
+								> a:not(.btn) {
+									color: var(--color-#{$subEach});
+									&:hover, &:focus, &:active, &.highlighted {
+										color: var(--bg-#{$color}-text-#{$subEach}-hover);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			&-hover {
+				&:focus, &:hover {
+					#{nth( $names, $i )}: #{$reference} ! important;
+				}
+			}
+		}
+	}
+	@if variable-exists( palette-primary-neutral-color ) {
+		.color-neutral-#{nth($names, $i)} {
+			@for $each from 1 through length( $colors) {
+				&.color-#{$each}-link-color {
+					a:not(.btn) {
+						color: var(--color-#{$each});
+					}
+					&:not( .sidebar ) {
+						a:not(.btn) {
+							&:hover, &:focus, &:active, &.highlighted {
+								color: var(--bg-neutral-text-#{$each}-hover);
+							}
+						}
+					}
+				}
+				&.color-#{$each}-sub-link-color.sm {
+					ul.sub-menu:not( .custom-sub-menu ) {
+						li.menu-item:not( .custom-sub-menu ) {
+							> a:not(.btn) {
+								color: var(--color-#{$each});
+								&:hover, &:focus, &:active, &.highlighted {
+									color: var(--bg-neutral-text-#{$each}-hover);
+								}
+							}
+						}
+					}
+				}
+			}
+			&.color-neutral-link-color {
+				a {
+					color: var(--color-neutral);
+				}
+				a:hover, a:focus, a:active, a.highlighted {
+					color: var(--bg-neutral-text-neutral-hover);
+				}
+			}
+			&.color-neutral-sub-link-color.sm {
+				ul.sub-menu:not( .custom-sub-menu ) {
+					li.menu-item:not( .custom-sub-menu ) {
+						> a:not(.btn) {
+							color: var(--color-neutral);
+							&:hover, &:focus, &:active, &.highlighted {
+								color: var(--bg-neutral-text-neutral-hover);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*
+* Base Colors
+*
+* Create colors for buttons
+* (.button-primary, .button-secondary, etc.)
+*/
+@if variable-exists( ubtn-colors ) {
+	@each $ubtn-color in $ubtn-colors {
+		$ubtn-name: nth($ubtn-color, 1);
+		$ubtn-background: nth($ubtn-color, 2);
+		$ubtn-bg-light: nth($ubtn-color, 4);
+		$ubtn-bg-dark: nth($ubtn-color, 5);
+		$ubtn-color: nth($ubtn-color, 3);
+
+
+		// Crete class for .button-primary
+		// and legacy flat .button-primary-flat
+		.btn-#{$ubtn-name},
+		.palette-primary .btn-#{$ubtn-name}.button-primary,
+		.palette-primary .btn-#{$ubtn-name}.button-secondary,
+		.btn-#{$ubtn-name}-flat {
+			background-color: $ubtn-background !important;
+			border-color: $ubtn-background;
+			color: $ubtn-color;
+			&.btn-raised {
+				background: linear-gradient( $ubtn-background, $ubtn-bg-light ) !important;
+				&:hover, &:focus {
+					background: linear-gradient( $ubtn-bg-light, $ubtn-background ) !important;
+				}
+			}
+			a {
+				color: $ubtn-color;
+			}
+
+			&:visited {
+				color: $ubtn-color;
+				a {
+					color: $ubtn-color;
+				}
+			}
+
+			&:hover,
+			&:focus {
+				background-color: $ubtn-bg-light !important;
+				border-color: $ubtn-bg-light;
+				color: $ubtn-color;
+				a {
+					color: $ubtn-color;
+				}
+			}
+
+			&:active,
+			&.active,
+			&.is-active {
+				background-color: $ubtn-bg-light !important;
+				border-color: $ubtn-bg-light;
+				color: $ubtn-color;
+				a {
+					color: $ubtn-color;
+				}
+			}
+		}
+
+		// Add support for borders & transparent buttons
+		.btn-border-#{$ubtn-name},
+		.palette-primary .btn-border-#{$ubtn-name}.button-primary,
+		.palette-primary .btn-border-#{$ubtn-name}.button-secondary,
+		.btn-border-#{$ubtn-name}-flat {
+			border-color: $ubtn-background !important;
+			&.btn-transparent{
+				color: $ubtn-background;
+			}
+			&:hover,
+			&:focus {
+				&.btn-transparent{
+					background-color: $ubtn-bg-light !important;
+					color: $ubtn-color;
+					a {
+						color: $ubtn-color;
+					}
+				}
+				border-color: $ubtn-bg-light !important;
+
+			}
+
+			&:active,
+			&.active,
+			&.is-active {
+				&.btn-transparent{
+					background-color: $ubtn-bg-light !important;
+					color: $ubtn-color;
+					a {
+						color: $ubtn-color;
+					}
+				}
+				border-color: $ubtn-bg-light !important;
+			}
+		}
+	}
+}
