@@ -870,7 +870,7 @@ msgstr ""
 msgid "Choose whether the featured image should be inserted as an image or as the background of the row above or below the Post Title row"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/blog-post.controls.php:699, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:293, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:351, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-background.php:166, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:190, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:802
+#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/blog-post.controls.php:699, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:293, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:351, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-background.php:166, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:190, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:814
 msgid "Background"
 msgstr ""
 
@@ -1058,7 +1058,7 @@ msgstr ""
 msgid "Depending on the active header layout, the Logo may not be displayed in your header. You can enable the Logo, %3$sSite Title%1$s, and %4$sTagline%1$s in the %2$sHeader Layout%1$s Section."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:38, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:87, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:145, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:235, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:318, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/header-layout.controls.php:254, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/header-layout.controls.php:262, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:970
+#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:38, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:87, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:145, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:235, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:318, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/header-layout.controls.php:254, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/header-layout.controls.php:262, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:982
 msgid "Header Layout"
 msgstr ""
 
@@ -1154,7 +1154,7 @@ msgstr ""
 msgid "Your Header Background can be a color, image, or video. A video background can even show on internal pages. If you don’t see the color you want to use, please update your %2$sColor Palette%1$s. Your %3$sSite Background%1$s and %4$sFooter Background%1$s can be changed as well."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:313, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:369, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:444, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:774
+#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:313, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:369, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/dropdown.controls.php:444, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:786
 msgid "Color Palette"
 msgstr ""
 
@@ -1218,7 +1218,7 @@ msgstr ""
 msgid "Choose the Footer Background"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/footer-layout.controls.php:17, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/footer-layout.controls.php:104, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:971
+#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/footer-layout.controls.php:17, crio/inc/boldgrid-theme-framework/includes/configs/customizer/controls/footer-layout.controls.php:104, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:983
 msgid "Footer Layout"
 msgstr ""
 
@@ -1662,7 +1662,7 @@ msgstr ""
 msgid "Manage the layout of your site's header."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/panels.config.php:64, crio/inc/boldgrid-theme-framework/includes/configs/customizer/sections.config.php:93, crio/inc/boldgrid-theme-framework/includes/configs/customizer/sections.config.php:114, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-help.php:236, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-panel.php:200, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:173, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:164, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:179, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:192, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:205, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:218, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:231, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:244, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:268, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:313, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:328, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:341, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:354
+#: crio/inc/boldgrid-theme-framework/includes/configs/customizer/panels.config.php:64, crio/inc/boldgrid-theme-framework/includes/configs/customizer/sections.config.php:93, crio/inc/boldgrid-theme-framework/includes/configs/customizer/sections.config.php:114, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-help.php:236, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-panel.php:200, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:190, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:243, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:164, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:179, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:192, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:205, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:218, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:231, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:244, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:268, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:313, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:328, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:341, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:354
 msgid "Help"
 msgstr ""
 
@@ -2537,11 +2537,11 @@ msgstr ""
 msgid "Invalid Value"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-panel.php:193, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:164
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-panel.php:193, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:176, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:234
 msgid "Back"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-panel.php:229
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-panel.php:261
 msgid "Press return or enter to open this panel"
 msgstr ""
 
@@ -2593,7 +2593,7 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:158
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer-section.php:228
 msgid "Press return or enter to open this section"
 msgstr ""
 
@@ -2685,71 +2685,71 @@ msgstr ""
 msgid "Change the menu spacing in your %s location."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:593
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:605
 msgid "Please wait while the Customizer loads..."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:765
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:777
 msgid "Homepage"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:766
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:778
 msgid "Change your site's Homepage settings"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:775
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:787
 msgid "Drag a color to a new spot to change what parts of the website are that color.<a href=\"#\" data-action=\"open-color-picker\"><span class=\"dashicons dashicons-admin-customizer\"></span><strong>Click a color</strong></a> to change it. Use the \"Suggest Palettes\" button to get new color suggestions, and press the lock icons to freeze colors in place."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:781
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:793
 msgid "Logo & Icon"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:782
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:794
 msgid "Change your site's logo and favicon."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:803
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:815
 msgid "Change the background of your site's custom header."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:811
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:823
 msgid "CSS/JS Editor"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:812
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:824
 msgid "Manage custom CSS and JS code for your site."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:833
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:845
 msgid "Manage the menus used on your site."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:839
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:851
 msgid "A Widget is a small block that performs a specific function. We have provided some prefilled widget areas for you. You can hover over the Widget Areas below to see where they are located on the page."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:845
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:857
 msgid "Add custom CSS for this theme."
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:969
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:981
 msgid "You can add and remove widget areas in your header and footer layouts:"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:984
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:996
 msgid "Get More Features"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:985, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:986
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:997, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:998
 msgid "Upgrade Crio"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:1037
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:1049
 msgid "Menu Tutorial"
 msgstr ""
 
-#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:1151, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:1163
+#: crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:1163, crio/inc/boldgrid-theme-framework/includes/customizer/class-boldgrid-framework-customizer.php:1175
 msgid "Responsive Font Size"
 msgstr ""
 

@@ -2006,7 +2006,7 @@ span.section-title-extended {
 
 h3.accordion-section-title span.section-title-extended {
   margin-left: 3.25em;
-  margin-bottom: -6px;
+  margin-bottom: 0px;
   margin-top: -3px;
 }
 
@@ -2060,7 +2060,6 @@ h3.accordion-section-title span.section-title-extended {
 .bgtfw-section-title.icon-sidebar-settings:before {
   -webkit-transform: rotate(-90deg) !important;
           transform: rotate(-90deg) !important;
-  padding: 0 0.5em 0.5em 0 !important;
   display: inline-block !important;
   margin-top: -.5em;
 }

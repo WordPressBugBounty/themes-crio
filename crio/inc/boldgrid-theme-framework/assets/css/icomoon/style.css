@@ -123,7 +123,6 @@
   display: inline-block !important;
   -webkit-transform: rotate(-90deg) !important;
           transform: rotate(-90deg) !important;
-  padding: 0 .5em !important;
 }
 
 .icon-crio:before,
