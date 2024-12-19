@@ -3649,20 +3649,12 @@ msgid_plural "%1$s for %2$s items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: crio/woocommerce/myaccount/orders.php:102
+#: crio/woocommerce/myaccount/orders.php:110
 msgid "Previous"
 msgstr ""
 
-#: crio/woocommerce/myaccount/orders.php:106
-msgid "Next"
-msgstr ""
-
 #: crio/woocommerce/myaccount/orders.php:114
-msgid "Browse products"
-msgstr ""
-
-#: crio/woocommerce/myaccount/orders.php:116
-msgid "No order has been made yet."
+msgid "Next"
 msgstr ""
 
 #: crio/woocommerce/product-searchform.php:27
