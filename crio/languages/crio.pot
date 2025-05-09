@@ -3590,43 +3590,43 @@ msgstr ""
 msgid "No downloads available yet."
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:27
+#: crio/woocommerce/myaccount/form-edit-account.php:34
 msgid "First name"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:31
+#: crio/woocommerce/myaccount/form-edit-account.php:38
 msgid "Last name"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:37
+#: crio/woocommerce/myaccount/form-edit-account.php:44
 msgid "Display name"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:38
+#: crio/woocommerce/myaccount/form-edit-account.php:45
 msgid "This will be how your name will be displayed in the account section and in reviews"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:43
+#: crio/woocommerce/myaccount/form-edit-account.php:50
 msgid "Email address"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:57
+#: crio/woocommerce/myaccount/form-edit-account.php:64
 msgid "Password change"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:60
+#: crio/woocommerce/myaccount/form-edit-account.php:67
 msgid "Current password (leave blank to leave unchanged)"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:64
+#: crio/woocommerce/myaccount/form-edit-account.php:71
 msgid "New password (leave blank to leave unchanged)"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:68
+#: crio/woocommerce/myaccount/form-edit-account.php:75
 msgid "Confirm new password"
 msgstr ""
 
-#: crio/woocommerce/myaccount/form-edit-account.php:85, crio/woocommerce/myaccount/form-edit-account.php:85
+#: crio/woocommerce/myaccount/form-edit-account.php:92, crio/woocommerce/myaccount/form-edit-account.php:92
 msgid "Save changes"
 msgstr ""
 
@@ -3649,12 +3649,24 @@ msgid_plural "%1$s for %2$s items"
 msgstr[0] ""
 msgstr[1] ""
 
+#: crio/woocommerce/myaccount/orders.php:81
+msgid "%1$s order number %2$s"
+msgstr ""
+
 #: crio/woocommerce/myaccount/orders.php:110
 msgid "Previous"
 msgstr ""
 
 #: crio/woocommerce/myaccount/orders.php:114
 msgid "Next"
+msgstr ""
+
+#: crio/woocommerce/myaccount/orders.php:121
+msgid "No order has been made yet."
+msgstr ""
+
+#: crio/woocommerce/myaccount/orders.php:121
+msgid "Browse products"
 msgstr ""
 
 #: crio/woocommerce/product-searchform.php:27
