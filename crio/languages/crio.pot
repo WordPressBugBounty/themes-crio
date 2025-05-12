@@ -3682,6 +3682,10 @@ msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: crio/woocommerce/single-product/add-to-cart/grouped.php:68
-msgid "Buy one of this item"
+#: crio/woocommerce/single-product/add-to-cart/grouped.php:71
+msgid "Buy one of %1$s on sale for %2$s, original price was %3$s"
+msgstr ""
+
+#: crio/woocommerce/single-product/add-to-cart/grouped.php:79
+msgid "Buy one of %1$s for %2$s"
 msgstr ""
